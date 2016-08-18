@@ -1,0 +1,17 @@
+{
+  "name": "node6-async-await",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./bin/greeting",
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015-node6": "^0.3.0"
+  }
+}
